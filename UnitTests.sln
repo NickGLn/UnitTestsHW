@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolygonPerimeter", "PolygonPerimeter\PolygonPerimeter.csproj", "{BA09DAF8-4A51-4029-AE31-D3B18CD66542}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shapes", "Shapes\Shapes.csproj", "{B3764BA2-5100-4048-AC3F-2C21E288DC23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vector", "Vector\Vector.csproj", "{BAB1FCC0-A9EC-4D59-95EE-010F6067802D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolygonPerimeter.Tests", "PolygonPerymeter.Tests\PolygonPerimeter.Tests.csproj", "{55E9B399-4459-403A-ABFE-FB2774A713E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shapes.Tests", "Shapes.Tests\Shapes.Tests.csproj", "{0DB8DD2A-B12B-4DEE-946B-26C6E49178B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vector.Tests", "Vector.Tests\Vector.Tests.csproj", "{FE8C2B89-C55E-4DA2-9AD3-44377DAA854E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B33AC88C-FEEF-42F3-84C7-AF6CC8DD2D14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA09DAF8-4A51-4029-AE31-D3B18CD66542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA09DAF8-4A51-4029-AE31-D3B18CD66542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA09DAF8-4A51-4029-AE31-D3B18CD66542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA09DAF8-4A51-4029-AE31-D3B18CD66542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3764BA2-5100-4048-AC3F-2C21E288DC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3764BA2-5100-4048-AC3F-2C21E288DC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3764BA2-5100-4048-AC3F-2C21E288DC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3764BA2-5100-4048-AC3F-2C21E288DC23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB1FCC0-A9EC-4D59-95EE-010F6067802D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB1FCC0-A9EC-4D59-95EE-010F6067802D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB1FCC0-A9EC-4D59-95EE-010F6067802D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB1FCC0-A9EC-4D59-95EE-010F6067802D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E9B399-4459-403A-ABFE-FB2774A713E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E9B399-4459-403A-ABFE-FB2774A713E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E9B399-4459-403A-ABFE-FB2774A713E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E9B399-4459-403A-ABFE-FB2774A713E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB8DD2A-B12B-4DEE-946B-26C6E49178B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB8DD2A-B12B-4DEE-946B-26C6E49178B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB8DD2A-B12B-4DEE-946B-26C6E49178B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB8DD2A-B12B-4DEE-946B-26C6E49178B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE8C2B89-C55E-4DA2-9AD3-44377DAA854E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8C2B89-C55E-4DA2-9AD3-44377DAA854E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE8C2B89-C55E-4DA2-9AD3-44377DAA854E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE8C2B89-C55E-4DA2-9AD3-44377DAA854E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55E9B399-4459-403A-ABFE-FB2774A713E6} = {B33AC88C-FEEF-42F3-84C7-AF6CC8DD2D14}
+		{0DB8DD2A-B12B-4DEE-946B-26C6E49178B2} = {B33AC88C-FEEF-42F3-84C7-AF6CC8DD2D14}
+		{FE8C2B89-C55E-4DA2-9AD3-44377DAA854E} = {B33AC88C-FEEF-42F3-84C7-AF6CC8DD2D14}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85203376-3435-4123-956B-F8952A71784E}
+	EndGlobalSection
+EndGlobal
